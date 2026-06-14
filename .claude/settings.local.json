@@ -5,7 +5,15 @@
       "Bash(python3:*)",
       "Bash(python:*)",
       "Bash(curl:*)",
-      "Bash(bun:*)"
+      "Bash(bun:*)",
+      "Bash(bash)",
+      "Bash(~/.bun/bin/bun install *)",
+      "Bash(~/.bun/bin/bun run *)",
+      "Bash(xargs ls)",
+      "Bash(rm -f /Users/mahasweta/Code/ai-job-search/cv/main_pharmakorell.aux /Users/mahasweta/Code/ai-job-search/cv/main_pharmakorell.log /Users/mahasweta/Code/ai-job-search/cv/main_pharmakorell.out)",
+      "Bash(rm -f /Users/mahasweta/Code/ai-job-search/cover_letters/cover_pharmakorell_qp.aux /Users/mahasweta/Code/ai-job-search/cover_letters/cover_pharmakorell_qp.log /Users/mahasweta/Code/ai-job-search/cover_letters/cover_pharmakorell_qp.out)",
+      "Bash(rm -f /Users/mahasweta/Code/ai-job-search/cv/main_eurofins.aux /Users/mahasweta/Code/ai-job-search/cv/main_eurofins.log /Users/mahasweta/Code/ai-job-search/cv/main_eurofins.out /Users/mahasweta/Code/ai-job-search/cv/texput.log)",
+      "Bash(rm -f /Users/mahasweta/Code/ai-job-search/cover_letters/cover_eurofins_lebensmittelanalytik.aux /Users/mahasweta/Code/ai-job-search/cover_letters/cover_eurofins_lebensmittelanalytik.log /Users/mahasweta/Code/ai-job-search/cover_letters/cover_eurofins_lebensmittelanalytik.out)"
     ]
   }
 }

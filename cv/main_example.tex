@@ -30,16 +30,29 @@
 \usepackage[scale=0.80]{geometry}
 \usepackage{import}
 
-% personal data
-\name{[First]}{[Last]}
-\address{[Your Address, City, Country]}{}{}
-\phone[mobile]{[+XX XXXXXXXXXX]}
-\email{[your.email@example.com]}
-\extrainfo{\href{[https://linkedin.com/in/your-profile]}{LinkedIn}, \href{[https://github.com/your-username]}{GitHub}}
+% personal data (used by moderncv internals; header is rendered manually below)
+\name{Mahasweta}{Bordoloi}
+\address{Marburg, Deutschland}{}{}
+\phone[mobile]{+49 17670700150}
+\email{bordoloi.mahasweta02@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/bordoloi}{LinkedIn}}
 
 \begin{document}
 
-\makecvtitle
+% Custom header: name + personal data left, photo right
+\begin{minipage}[c]{0.65\textwidth}
+  {\Huge\bfseries\color{color1} Mahasweta Bordoloi}\\[1.5em]
+  {\color{color2}\faBirthdayCake}~10.02.1994, Indien\\[0.5em]
+  {\color{color2}\emailsymbol}~bordoloi.mahasweta02@gmail.com\\[0.5em]
+  {\color{color2}\mobilephonesymbol}~+49 17670700150\\[0.5em]
+  {\color{color2}\faMapMarker}~Marburg, Deutschland
+\end{minipage}
+\hfill
+\begin{minipage}[c]{0.28\textwidth}
+  \raggedleft
+  \includegraphics[width=\linewidth, trim=0 150 0 0, clip]{CV}
+\end{minipage}
+\vspace{1.5em}
 
 % ============================================================
 %     PROFILE STATEMENT
@@ -145,25 +158,3 @@ Thesis: ``[Thesis Title].'' [Brief description of research focus.]
 \begin{itemize}
 \item [Author(s)] ([Year]). [Title]. [Journal/Conference]. \href{[DOI_URL]}{DOI link}
 \end{itemize}
-
-% ============================================================
-%     HONORS AND AWARDS (optional)
-% ============================================================
-
-\section{Honors and Awards}
-\vspace{1pt}
-\begin{itemize}
-\item{\textbf{[Award Name]} -- [Event/Organization] ([Year]).}
-\end{itemize}
-
-% ============================================================
-%     REFERENCES
-% ============================================================
-
-\section{References}
-\vspace{1pt}
-\begin{itemize}
-\item{Available upon request.}
-\end{itemize}
-
-\end{document}

@@ -1,7 +1,5 @@
 # CV Templates and Tailoring Guide
 
-<!-- SETUP: Profile statements and section ordering are personalized by running /setup -->
-
 ## Template: LaTeX moderncv (Banking Style)
 
 All CVs use the moderncv LaTeX package with the "banking" style and "blue" color scheme.
@@ -39,28 +37,28 @@ Expected output: `Output written on main_<company>.pdf (2 pages, ...)`. Any page
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
+    pdftitle={Mahasweta Bordoloi - CV},
     pdfpagemode=FullScreen,
 }
 \usepackage[scale=0.77]{geometry}
 \usepackage{import}
 
 % Personal data
-\name{[FIRST_NAME]}{[LAST_NAME]}
-\address{[YOUR_ADDRESS]}{}{}
-\phone[mobile]{[YOUR_PHONE]}
-\email{[YOUR_EMAIL]}
-\extrainfo{\href{[YOUR_LINKEDIN_URL]}{LinkedIn}, \href{[YOUR_GITHUB_URL]}{GitHub}}
+\name{Mahasweta}{Bordoloi}
+\address{Marburg, Deutschland}{}{}
+\phone[mobile]{+49 17670700150}
+\email{bordoloi.mahasweta02@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/bordoloi}{LinkedIn}}
 
 \begin{document}
 \makecvtitle
 
 % 1. Profile statement (1-3 sentences, tailored per role)
 % 2. Skills section
-% 3. Education section
-% 4. Professional Experience section
-% 5. Selected Publications (if applicable)
-% 6. Honors and Awards (if applicable)
+% 3. Professional Experience section
+% 4. Education section
+% 5. Certifications
+% 6. Languages
 % 7. References
 
 \end{document}
@@ -103,14 +101,18 @@ This is the most important section to customize. It appears right after `\makecv
 
 Write 5-7 lines that function as an "elevator pitch": a concise, compelling introduction explaining why you're qualified for *this specific role*. Focus on what the employer gains from hiring you.
 
-**Create 2-3 profile statement templates for your main role types:**
+**For QA/QC/GMP roles in pharma/biotech:**
+> Biotechnologin (M.Sc.) mit mehrjähriger praktischer Erfahrung in qualitätsrelevanten Labor- und Prozessumgebungen innerhalb der Molekularbiologie und Biotechnologie. Fundierte Kenntnisse in GMP-naher Dokumentation, Qualitätsmanagementsystemen, Abweichungsmanagement, CAPA-Grundlagen sowie Risiko- und Prozessbewertung. Erfahrung in der Durchführung, Dokumentation und Optimierung standardisierter Laborprozesse unter GMP-/GLP-nahen Bedingungen. Durch meine Tätigkeit in verschiedenen internationalen Forschungs- und Laborumgebungen in Deutschland und Indien habe ich eine hohe Anpassungsfähigkeit, schnelle Einarbeitung in neue Prozesse sowie ein starkes technisches Verständnis entwickelt.
 
-<!-- SETUP: These are populated based on your background -->
-**For [YOUR_PRIMARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_1]
+*[Used for: OHLY QA Specialist]*
 
-**For [YOUR_SECONDARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_2]
+**For medical diagnostics / MTL / BTA / Biologist roles:**
+> Naturwissenschaftlerin (M.Sc. Biotechnologie) mit praktischer Erfahrung in labormedizinischen Prozessen, Probenbearbeitung und qualitätsgesicherten Laborabläufen. Erfahrung in der Annahme, Verarbeitung und Analyse von Patientenproben (u. a. Dengue, HIV) unter standardisierten Bedingungen. Sehr verantwortungsbewusster und sorgfältiger Umgang mit Patientenproben, kombiniert mit einer selbständigen, zuverlässigen und serviceorientierten Arbeitsweise. Hohe Teamorientierung und Erfahrung in internationalen wissenschaftlichen Teams.
+
+*[Used for: Synlab MTL/BTA/Biologist Microbiology]*
+
+**For research-adjacent molecular biology roles (English-language):**
+> Life scientist (M.Sc. Biotechnology, PhD candidate in Pharmaceutical Chemistry) with hands-on experience in virology, molecular biology, and RNA analytics across research institutions in Germany and India. Proficient in qRT-PCR, NGS, molecular cloning, transfection, Western Blot, ELISA, and VLP assays. Experienced in BSL-2 laboratory conditions and GMP/GLP-compliant documentation. Combines strong technical execution with a methodical, quality-conscious work approach developed across international research environments.
 
 ### Core Competencies / Skills Section (Best Practice)
 Reorder and emphasize based on the role. Use bold category labels.
@@ -118,33 +120,37 @@ Reorder and emphasize based on the role. Use bold category labels.
 List **5-7 key competencies** in bullet format, tailored to the specific job. For each competency, briefly explain how it adds value to the position.
 
 ### Education
-- Always include your highest degrees
-- For senior roles, keep education brief (dates and titles only)
+- Always include PhD (in progress) and M.Sc. at minimum
+- For QA/industry roles: education section after experience — credentials support but don't lead
+- For research/academic roles: education section before experience
 - Include thesis topics when relevant to the target role
 
 ### Professional Experience
 - Rewrite bullet points to emphasize aspects most relevant to the target role
-- Use 4-6 bullets for most recent role, 3-4 for previous, 2-3 for older
-- **Emphasize measurable results** where possible: "Reduced processing time by X%", "Model adopted by the team"
+- Use 4-6 bullets for PhD role, 3-4 for NCBS, 2-3 for Tata/IISc
+- **Emphasize measurable or verifiable outcomes** where possible
+- For QA roles: lead with GMP/GLP, deviation management, documentation bullets
+- For diagnostics roles: lead with sample processing, virology diagnostics, quality bullets
+- For molecular biology roles: lead with qRT-PCR, RNA analysis, BSL-2 experience
 
-### Handling Employment Gaps (Best Practice)
-If there is a gap in your employment history:
-- The gap should be explained matter-of-factly if needed
-- Describe how professional development continued during the gap
-- Frame as deliberate skill-building and career repositioning
+### Handling the PhD-to-Industry Transition
+The PhD is not finished — this is a strength (current, ongoing experience) not a gap. Frame it as:
+- Active research position, not "student"
+- Lead with the applied/industry-relevant skills from the PhD
+- The GMP/SAP certifications signal deliberate transition planning
 
-### Publications
-- Include Google Scholar link if applicable
-- Select 3-4 most relevant publications (not always all of them)
-- For non-academic roles, keep brief
+### Certifications
+- Always include the two MARA GMP certs with dates (verifiable, recent, directly relevant)
+- Include SAP certs for QA/pharma roles
+- Include IFS for food industry roles
+- Include CAPA for regulatory/QA roles
 
-### Honors and Awards
-- Keep format brief, one line each
+### Languages
+- One line: German (very good), English (very good), Hindi (very good)
+- Note that all academic training was in English — relevant for international roles
 
 ### References
-- List 2-4 references with name, title, company, and contact
-- End with: "More references are available upon request."
-- **Do not attach reference letters** - employers typically contact references directly
+- "Available upon request." — do not list names until asked
 
 ## Compile-and-Inspect Loop (MANDATORY)
 
@@ -166,7 +172,7 @@ Add `\needspace{5\baselineskip}` immediately before the problematic `\cventry`:
 Include `\usepackage{needspace}` in the preamble.
 
 **Problem: one trailing section spills to page 3 (e.g., References alone on page 3)**
-Add `\enlargethispage{2-3\baselineskip}` before a late section (e.g., before `\section{Honors and Awards}`) to stretch page 2 by a few lines. This is the standard LaTeX rescue for near-miss overflows.
+Add `\enlargethispage{2-3\baselineskip}` before a late section (e.g., before `\section{Certifications}`) to stretch page 2 by a few lines. This is the standard LaTeX rescue for near-miss overflows.
 
 **Problem: 3 pages with significant content on page 3**
 Cut content — do not compress geometry or `\vspace`. See "Relevance-weighted cutting" below for the rule.
@@ -180,14 +186,14 @@ The CV **must** fit on exactly 2 pages when compiled. Use these content limits a
 
 | Section | Max budget |
 |---------|-----------|
-| Profile statement | 3-4 lines |
-| Skills | 5 items, each 1-2 lines |
-| Most recent role | 4-5 bullets |
-| Previous role | 2-3 bullets |
-| Older roles | 2 bullets (1 line each) |
+| Profile statement | 3-5 lines |
+| Skills | 5-7 items, each 1-2 lines |
+| PhD role | 5-6 bullets |
+| NCBS role | 3-4 bullets |
+| Tata / IISc roles | 2-3 bullets each |
 | Education | 2-3 entries |
-| Publications | 2-3 entries |
-| Awards | 3 entries, single line each |
+| Certifications | 4-6 entries, single line each |
+| Languages | 1 line |
 | References | "Available upon request." (single line) |
 
 **If in doubt, cut rather than squeeze.** Reducing `\vspace` or geometry scale to force-fit content makes the CV look cramped.
@@ -206,36 +212,37 @@ Cut the lowest-total-score line first, regardless of which section it sits in.
 
 ### Practical order of cuts (easiest → last resort)
 
-1. **Redundancy.** If an achievement appears in both Core Competencies AND a role bullet, the Core Competencies version is usually the cleaner cut (the experience bullet is more concrete evidence).
-2. **Profile-statement fluff.** A sentence that just restates what Publications or Skills will show. ("Peer-reviewed publications on X..." is already a Publications entry — profile can claim it once and stop.)
-3. **Low-relevance experience bullets.** A bullet about work that does not touch posting keywords, wherever it sits. This cuts across sections before touching the structural list.
-4. **Low-relevance supporting content.** An older-role bullet that does not speak to the target role. A certification that does not touch the posting's stack. A language entry that can be condensed to one line.
-5. **Low-relevance publications.** Keep 1-2 publications that best match the posting. Cut the rest before touching experience bullets.
-6. **Last-resort structural cuts.** Oldest education entry, tightening an older role to 2 bullets, collapsing Certifications into a single line. These only happen if the relevance-weighted cuts above have already been exhausted.
-
-### Pitfalls to avoid
-
-- Do not mechanically cut from the bottom of a static section list without checking relevance. "Cut the oldest role first" is wrong if that role is literally about the skill the posting asks for.
-- Do not cut the one concrete example the cover letter leans on. Relevance is measured against the cover letter you wrote, not just the job posting — interviewers will have read both.
-- Do not cut to fit if the fit is borderline (2.02 pages). Prefer `\enlargethispage{2-3\baselineskip}` on a late section for near-misses; reserve content cuts for genuine overflow (content on page 3 that is more than a single trailing section).
+1. **Redundancy.** If an achievement appears in both Core Competencies AND a role bullet, the Core Competencies version is usually the cleaner cut.
+2. **Profile-statement fluff.** A sentence that just restates what Skills or Certifications will show.
+3. **Low-relevance experience bullets.** A bullet about work that does not touch posting keywords, wherever it sits.
+4. **Low-relevance supporting content.** Tata Institute role (short, less relevant for most targets) can be reduced to 1-2 bullets or cut entirely.
+5. **Last-resort structural cuts.** Collapsing IISc Praktikum to a single line; removing Abitur from Education; condensing Languages to one entry.
 
 ## Recommended Section Order
 
-The section order varies by role type:
-
-**For technical / data science / ML roles:**
-1. Profile statement / elevator pitch
-2. Core competencies / Skills
+**For QA/QC/GMP pharma roles:**
+1. Profile statement
+2. Core competencies / Skills (QM & compliance first)
 3. Professional Experience (reverse chronological)
-4. Education (reverse chronological)
-5. Languages
-6. Publications & Awards
+4. Certifications
+5. Education
+6. Languages
 7. References
 
-**For domain-specific / specialist roles:**
-1. Profile statement / elevator pitch
-2. Core competencies / Skills
-3. Education (reverse chronological) - credentials are a key qualifier
-4. Professional Experience (reverse chronological)
-5. Publications & Awards
-6. References
+**For medical diagnostics / MTL / BTA roles:**
+1. Profile statement
+2. Core competencies (diagnostics and lab methods first)
+3. Professional Experience
+4. Education
+5. Certifications
+6. Languages
+7. References
+
+**For molecular biology / research roles (English-language):**
+1. Profile statement
+2. Core competencies (molecular methods first)
+3. Professional Experience
+4. Education
+5. Certifications
+6. Languages
+7. References

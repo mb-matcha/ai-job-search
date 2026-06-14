@@ -1,7 +1,5 @@
 # Job Evaluation Framework
 
-<!-- SETUP: Skill match areas and career goals are personalized by running /setup -->
-
 ## Scoring Dimensions
 
 Evaluate each job posting against these five dimensions:
@@ -16,9 +14,11 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** qRT-PCR/qPCR, RNA analysis, DNA/RNA isolation, molecular cloning, Western Blot, ELISA, NGS/sequencing, molecular biology methods, GMP/GLP-compliant documentation, clinical/sensitive sample handling (BSL-2), virology (Dengue, Ebola), deviation management, CAPA fundamentals, data integrity, SOP documentation, lab equipment operation and maintenance
+
+**Moderate match areas:** QMS systems (theoretical knowledge, no full industry QA role yet), HACCP, risk analysis, SAP basics, process optimization, IFS, audit preparation, cell & gene therapy workflows (SAP module only)
+
+**Weak match areas:** Regulatory affairs (RA) strategy, clinical trial management, pure bioinformatics/computational roles, industrial scale-up/manufacturing, sales or commercial roles
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for?
@@ -30,9 +30,11 @@ Does work history align with what they're looking for?
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** Molecular biology laboratory roles, virology research, analytical method execution, clinical/biological sample processing, BSL-2 laboratory work, GMP/GLP-adjacent documentation in research
+
+**Moderate:** Quality control in pharmaceutical/biotech (research-adjacent, not direct industry QC), medical diagnostics laboratory work (Dengue/HIV diagnostics at NCBS is strong transfer signal), food industry QA (IFS training bridges)
+
+**Entry-level / stretch:** Pure QA management roles (QMS ownership), regulatory submission writing, team leadership positions
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -44,13 +46,14 @@ Does the role and company culture match the behavioral profile?
 | 40-59 | Some friction areas |
 | 0-39 | Significant culture mismatch |
 
-**Red flags to research:** Department disorganization, work dominated by maintenance over development, poor chemistry with leadership, culture mismatches. Check reviews, media coverage, LinkedIn connections, and network contacts for insider perspective.
+**Red flags to research:** Highly unstructured or chaotic work environments; roles requiring heavy client-facing sales components; companies with poor Glassdoor reviews on management transparency; roles requiring significant travel away from Marburg.
 
 ### 4. Location & Logistics (Pass/Fail + Notes)
-- Within commute range: PASS
-- Remote with occasional office: PASS
-- Requires relocation: FAIL (deal-breaker)
-- Frequent international travel: FLAG (discuss with user)
+- Marburg and immediate surroundings: PASS
+- Frankfurt/Rhine-Main area (commutable): PASS (check commute time)
+- Remote / hybrid with occasional office: PASS
+- Requires relocation: FLAG — not specified as a constraint in documents, ask Mahasweta
+- International travel required: FLAG — discuss
 
 ### 5. Career Alignment & Motivation (0-100)
 Does this role advance career goals and contain tasks that energize?
@@ -63,19 +66,21 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- Transition from academic research into pharmaceutical/biotechnology industry
+- Entry into QC, QA, or GMP-relevant analytics
+- Alternatively: medical diagnostics laboratory roles (MTL/BTA/Biologist level)
+- Food industry QA as an adjacent path (IFS training supports this)
+- Build certified GMP/QM track record to grow into senior QA/RA roles over time
 
-**Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
-- Non-task factors: leadership style, department culture, company values, degree of autonomy
+**Motivation filter:** Evaluate not just whether she *can* do the tasks, but whether the tasks will *energize* her. Consider:
+- Tasks that energize: lab analytical work, molecular method execution, quality-relevant documentation, process standardization, international team collaboration
+- Tasks that drain (inferred): pure administrative/desk roles with no lab component, highly repetitive routine testing without any optimization component
+- Non-task factors: structured work environment, clear quality standards, collegial international team
 
-**Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+**Life situation alignment:**
+- **Security:** Actively job-seeking from PhD candidate position — stability and a concrete industry foothold are priorities
+- **Flexibility:** No constraints specified; willing to work weekend shifts (stated in Synlab cover letter)
+- **Professional development:** Actively investing in GMP/SAP certifications — roles offering further training or certification are a plus
 
 ### 6. Salary Benchmark (Optional)
 
@@ -94,8 +99,6 @@ Present findings as:
 | [Category] index | XX.X (+/-X.X% vs baseline) |
 | Overall index | XX.X (+/-X.X% vs baseline) |
 ```
-
-Interpret results relative to the baseline defined in the data file's metadata. For index-based data, higher typically means above-market compensation.
 
 If the salary tool is not configured, skip this section.
 
@@ -150,9 +153,14 @@ Present the evaluation as:
 - **Weak Fit** (30-44): Probably skip unless strategic reasons
 - **Poor Fit** (<30): Skip
 
+## Calibration from Past Applications
+- OHLY GmbH (QA Specialist): Applied — outcome unknown
+- Synlab (MTL/BTA/Biologist Microbiology): Applied — outcome unknown
+- Persoplan: Applied — outcome unknown
+
 ## Pre-Application: Call the Employer (Best Practice)
 
-Before writing the application, consider whether the candidate should call the contact person listed in the posting. **Only call if there are substantive questions** - never call just to "be remembered."
+Before writing the application, consider whether Mahasweta should call the contact person listed in the posting. **Only call if there are substantive questions** — never call just to "be remembered."
 
 ### When to Suggest Calling
 - The posting has unclear or ambiguous requirements
@@ -167,7 +175,7 @@ Before writing the application, consider whether the candidate should call the c
 - "What does success look like in the first 6-12 months?"
 
 ### Rules for the Call
-- Prepare a 30-second "elevator pitch" about your background in case they ask
+- Prepare a 30-second elevator pitch about the background in case they ask
 - The call's purpose is **gathering information**, not delivering a pitch
-- Take notes - use what you learn to tailor the application
+- Take notes — use what you learn to tailor the application
 - Reference the conversation naturally in the cover letter ("After speaking with [name], I was especially drawn to...")
